@@ -1,0 +1,155 @@
+*{
+	marin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+main{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+a{
+	text-decoration: none;
+}
+.titulo-meus-contatos{
+	color: #cc5200;
+	font-family: Poppins;
+}
+.container-principal{
+	display: flex;
+	width: 500px;
+	height: 500px;
+	background-image: linear-gradient(#cc5200,black);
+	align-items: center;
+	border-radius: 8px;
+	flex-direction: column;
+}
+.imagem-iuri{
+	width: 175px;
+	height: 168px;
+	border-radius: 50%;
+	margin: 10px;
+}
+.contato-email{
+	width: 217px;
+	height: 49px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	margin: 10px;
+	color: white;
+	font-family: Poppins;
+	background-image: linear-gradient(to right,blue,red,yellow,green);
+}
+.contato-linkedin{
+	width: 217px;
+	height: 49px;
+	border: none;
+	color: white;
+	border-radius: 6px;
+	background-color: blue;
+	cursor: pointer;
+	margin: 10px;
+	font-family: Poppins;
+}
+.contato-whats{
+	width: 217px;
+	height: 49px;
+	border: none;
+	color: white;
+	border-radius: 6px;
+	background-color: green;
+	cursor: pointer;
+	margin: 10px;
+	font-family: Poppins;
+}
+.contato-github{
+	width: 217px;
+	height: 49px;
+	border: none;
+	border-radius: 6px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	margin: 10px;
+	font-family: Poppins;
+}
+@media (max-width: 770px){
+	main{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.imagem-iuri{
+		width: 152px;
+		height: 143px;
+		border-radius: 50%;
+		margin: 10px;
+	}
+	.titulo-meus-contatos{
+		color: #cc5200;
+		font-family: Poppins;
+		font-size: 20px;
+	}
+	.container-principal{
+		display: flex;
+		width: 259px;
+		height: 427px;
+		background-image: linear-gradient(#cc5200,black);
+		align-items: center;
+		border-radius: 8px;
+		flex-direction: column;
+		margin: 35px;
+	}
+  .contato-email{
+		width: 174px;
+		height: 38px;
+		border: none;
+		border-radius: 6px;
+		cursor: pointer;
+		margin: 10px;
+		color: white;
+		font-size: 14px;
+		font-family: Poppins;
+		background-image: linear-gradient(to right,blue,red,yellow,green);
+  }
+  .contato-linkedin{
+		width: 174px;
+		height: 38px;
+		border: none;
+		color: white;
+		border-radius: 6px;
+		background-color: blue;
+		cursor: pointer;
+		margin: 10px;
+		font-size: 14px;
+		font-family: Poppins;
+  }
+  .contato-whats{
+		width: 174px;
+		height: 38px;
+		border: none;
+		color: white;
+		border-radius: 6px;
+		background-color: green;
+		cursor: pointer;
+		margin: 10px;
+		font-size: 14px;
+		font-family: Poppins;
+	}
+	.contato-github{
+		width: 174px;
+		height: 38px;
+		border: none;
+		border-radius: 6px;
+		background-color: black;
+		color: white;
+		cursor: pointer;
+		margin: 10px;
+		font-size: 14px;
+		font-family: Poppins;
+	}
+}
